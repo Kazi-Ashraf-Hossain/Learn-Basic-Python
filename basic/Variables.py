@@ -24,3 +24,12 @@ person = {
 
 # Set
 color = {"Red", "Green", "Blue"}
+
+print(numbers)
+print(height)
+print(name)
+print(is_active)
+print(result)
+print(coordiates)
+print(person)
+print(color)
