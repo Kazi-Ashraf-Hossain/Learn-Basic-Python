@@ -14,3 +14,9 @@ def sum(m, n):
 addition = sum(5  , 2)
 print(addition)
 
+
+def my_function(name):
+    print("Hello", name)
+
+my_function("Email")
+
