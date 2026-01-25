@@ -1,22 +1,29 @@
-# Tutorial url - https://www.youtube.com/watch?v=ZBNTa9GdY14
-def add(a, b):
-    c = a + b
-    print(c)
+# Positional Arguments
 
-add(1, 2)
+def person_details(name, age, country='Bangladesh'):
+    print(name, age, country, sep='|')
 
-# Function Return ----
+person_details('Khan', '20', 'Bangladesh')
 
-def sum(m, n):
-    o = m + n
-    return o
+# Keyword Arguments
+person_details(name='Abul', age=40, country='SA')
 
-addition = sum(5  , 2)
-print(addition)
+person_details('Alam', 30)
 
 
-def my_function(name):
-    print("Hello", name)
 
-my_function("Email")
+# Return value
 
+def square(num):
+    return num * num
+
+print(square(2), square(2.2), sep='|')
+
+def get_name(fName, lName):
+    return fName +" "+ lName
+
+print(get_name('Kazi', 'Hossain'))
+
+
+
+# Optional Argument
